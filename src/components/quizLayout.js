@@ -67,7 +67,7 @@ export default class QuizLayout extends Component {
               console.log(this.props.passed.email)
               console.log(this.props.match.params.id.substring(4)-1)
               console.log(this.state.score)
-            axios.post('http://localhost:5000/api/result/marks',obj)
+            axios.post('https://chemistry-backend.herokuapp.com/api/result/marks',obj)
                  .then(res=>{
                      console.log(res);
                  })                      

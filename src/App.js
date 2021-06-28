@@ -35,14 +35,14 @@ class App extends Component {
         'x-auth-token':localStorage.getItem('token')
       }
     } 
-    axios.get("http://localhost:5000/api/auth/getUser",config)
+    axios.get("https://chemistry-backend.herokuapp.com/api/auth/getUser",config)
            .then(user=>{
              //console.log(user)
              const confi={
               headers:{
                 "email":user.data.email
               }}
-              axios.get("http://localhost:5000/api/result/getscore",confi)
+              axios.get("https://chemistry-backend.herokuapp.com/api/result/getscore",confi)
               .then(res=>{
                 //console.log(res.data.marks);
                 this.setState({marks:res.data.marks},()=>{
@@ -86,14 +86,14 @@ class App extends Component {
         'x-auth-token':localStorage.getItem('token')
       }
     } 
-    axios.get("http://localhost:5000/api/auth/getUser",config)
+    axios.get("https://chemistry-backend.herokuapp.com/api/auth/getUser",config)
            .then(user=>{
              //console.log(user)
              const confi={
               headers:{
                 "email":user.data.email
               }}
-              axios.get("http://localhost:5000/api/result/getscore",confi)
+              axios.get("https://chemistry-backend.herokuapp.com/api/result/getscore",confi)
               .then(res=>{
                 //console.log(res.data.marks);
                 this.setState({marks:res.data.marks},()=>{

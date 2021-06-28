@@ -19,7 +19,7 @@ class Login extends Component{
             email:this.state.email,
             password:this.state.password
         }
-         axios.post('http://localhost:5000/api/auth/login',user)
+         axios.post('https://chemistry-backend.herokuapp.com/api/auth/login',user)
          .then(user=>{
           //console.log(user);
           this.props.setAuthenticated(true);
