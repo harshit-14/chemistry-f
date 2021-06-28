@@ -1,0 +1,57 @@
+.graph{
+   margin-top: 10%;
+   margin-left: 12vw;
+}
+.profile-header{
+    display: flex;
+    border:10px double steelblue;
+    margin: 10px;
+
+}
+.profile-logo{
+    font-size: 100px;
+      text-transform: capitalize;
+    border: 5px solid greenyellow;
+    border-radius: 20px;
+    height: 130px;
+    margin-top: 40px;
+    align-self: center;
+    margin-left: 40px;
+    width: 120px;
+    font-family: oxygen;
+    background-color: black;
+    color: greenyellow;
+    text-align: center;
+}
+.profile-name{
+    align-self: center;
+    font-size: 60px;
+    font-weight: 800;
+    margin-left: 30px;
+    font-family: ubuntu;
+}
+.profile-main-outer{
+    display: flex;
+    border: 10px double brown;
+    margin:10px;
+    padding: 20px;
+}
+.profile-main{
+    align-self: center;
+    margin-left:5vw ;
+    display:grid;
+ 
+    grid-template-columns: auto auto;
+}
+.profile-value{
+    font-size:20px;
+    font-weight: 600;
+}
+.profile-heading{
+    font-size:30px;
+    font-weight: 600;
+}
+.profile-main span{
+    text-align: left;
+    font-family: monospace;
+}

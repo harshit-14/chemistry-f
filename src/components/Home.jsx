@@ -11,7 +11,7 @@ function Home(){
             <h1 className="a">Quick Links</h1>
             <div className="a"><Corusal className="corusal"/></div>
             <Important />
-            <Footer />
+         
         </div>
     )
 }

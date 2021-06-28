@@ -5,9 +5,10 @@ export default function Chapter11 (props)
 {    
         console.log("hel")
         return(
-            <div class="outer">
-                <div><h1>UNIT- {props.match.params.id-14}</h1></div>
-                
+            
+            <div className="outer">
+                 <div><h1>UNIT- {props.match.params.id-14}</h1></div>
+                      
             <div><h1>{props.match.params.name}</h1></div>
             <div className="grid-box">
                 

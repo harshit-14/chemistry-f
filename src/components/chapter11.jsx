@@ -6,7 +6,7 @@ export default function Chapter11 (props)
 {    
         console.log("hel")
         return(
-            <div class="outer">
+            <div className="outer">
                 <div><h1>UNIT- {props.match.params.id}</h1></div>
                 
             <div><h1>{props.match.params.name}</h1></div>
